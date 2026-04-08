@@ -30,3 +30,26 @@ git add -A
 git commit -m "Remove test.txt"
 git push origin main
 ```
+
+---
+
+history commands:
+```bash
+git log --oneline
+```
+
+---
+
+new branch:
+```bash
+git branch new-analysis
+git checkout new-analysis
+```
+
+---
+
+reverse staged commands:
+```bash
+git reset # delete staging area, in local
+git revert # new commit to cover the previous action
+```
