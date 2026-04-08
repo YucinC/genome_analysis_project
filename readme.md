@@ -1,3 +1,11 @@
+### Instruction for directories and files.
+
+#### gitignore
+Set in the `file.gitignore`.
+Not update the data file and raw data analysis output.
+
+
+### Commands for Git
 steps for sync:
 ```bash
 git status
