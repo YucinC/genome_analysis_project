@@ -1,0 +1,35 @@
+# sequence data
+*.fa
+*.fasta
+*.fna
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# alignment / index files
+*.bam
+*.sam
+*.bai
+*.fai
+*.dict
+*.bt2
+*.bwt
+*.amb
+*.ann
+*.pac
+*.sa
+
+# logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# common result folders
+results/
+output/
+data/
+
+# python cache
+__pycache__/
+*.pyc
