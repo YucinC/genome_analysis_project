@@ -22,16 +22,16 @@ The following plan is designed based on the specified questions. And question 1-
 
 ### 2. Analysis
 
-| Analysis block | Analysis method in this project | Software in this project | Reason for the project choice | Estimated time (2 cores) |
-|---|---|---|---|---|
-| Reads quality control | Quality check of Illumina reads before and after preprocessing | FastQC | This is required by the project and is a standard first step for reproducible downstream analysis. | ~10 min |
-| Short reads preprocessing | Adapter and quality trimming of Illumina short reads | Trimmomatic | The paper used Illumina reads in downstream assembly correction and RNA-seq analysis, so trimming is a reasonable standard preprocessing step in the project workflow. | ~30 min per file |
-| DNA assembly | PacBio-based bacterial genome assembly | Canu | Canu is the closest long-read assembler in the provided software list for reproducing the PacBio-led assembly logic of the paper. | ~6 h |
-| Assembly evaluation | Statistical and completeness-based assembly evaluation | QUAST | These tools provide a clearer and more standardized evaluation framework for a course project than the paper’s more manual validation style. | QUAST: < 10 min |
-| Structural and functional annotation | Structural and functional annotation of the assembled bacterial genome | Prokka | This directly matches the paper and is the most appropriate bacterial annotation tool in the provided list. | <5 min |
-| Genome comparison | Genome comparison with a closely related genome | BLAST | BLAST is explicitly listed in the project software sheet and is a direct executable option for sequence-level genome comparison. | <1 min |
-| RNA-seq read alignment | Alignment of bacterial RNA-seq reads against the assembled genome | BWA | Among the provided aligners, BWA is the most suitable listed option for bacterial RNA reads aligned to a bacterial reference genome. | ~15–20 min per paired-end dataset |
-| Differential expression analysis | Read counting followed by differential expression testing | HTSeq + DESeq2 | Since Rockhopper is not in the provided software sheet, HTSeq + DESeq2 is the clearest standard replacement using the available tools. | ~4h |
+| Analysis block | Analysis method in this project | Software in this project | Input data | Data source | Reason for the project choice | Estimated time (2 cores) |
+|---|---|---|---|---|---|---|
+| Reads quality control | Quality check of Illumina reads before and after preprocessing | FastQC | Raw Illumina DNA-seq reads and RNA-seq reads (FASTQ) | RNA-seq reads from ENA PRJEB19025; Illumina reads generated from E. faecium E745 genome sequencing (as described in the paper) | This is required by the project and is a standard first step for reproducible downstream analysis. | ~10 min |
+| Short reads preprocessing | Adapter and quality trimming of Illumina short reads | Trimmomatic | Raw Illumina reads (FASTQ) | Same Illumina sequencing datasets used for genome polishing and RNA-seq in the paper | The paper used Illumina reads in downstream assembly correction and RNA-seq analysis, so trimming is a reasonable standard preprocessing step in the project workflow. | ~30 min per file |
+| DNA assembly | PacBio-based bacterial genome assembly | Canu | PacBio long reads (FASTQ/FASTA) | PacBio RS II SMRT sequencing data generated from E. faecium E745 (paper dataset) | Canu is the closest long-read assembler in the provided software list for reproducing the PacBio-led assembly logic of the paper. | ~6 h |
+| Assembly evaluation | Statistical assembly evaluation | QUAST | Assembled genome contigs (FASTA) | Assembly generated in this project (based on PacBio reads) | QUAST provides a standardized evaluation of contiguity and assembly quality suitable for a course project. | <10 min |
+| Structural and functional annotation | Structural and functional annotation of the assembled bacterial genome | Prokka | Assembled genome (FASTA) | Final assembled genome corresponding to E. faecium E745 (reference deposited in NCBI GenBank CP014529–CP014535) | This directly matches the paper and is the most appropriate bacterial annotation tool in the provided list. | <5 min |
+| Genome comparison | Genome comparison with a closely related genome | BLAST | Annotated genome (FASTA) + reference genome sequences | Reference genomes and plasmids from NCBI GenBank (e.g. pMG1 plasmid; E. faecium ATCC 700221) | BLAST is explicitly listed in the project software sheet and is a direct executable option for sequence-level genome comparison. | <1 min |
+| RNA-seq read alignment | Alignment of bacterial RNA-seq reads against the assembled genome | BWA | Clean RNA-seq reads (FASTQ) + assembled genome (FASTA) | RNA-seq dataset from ENA PRJEB19025; reference genome from this study | Among the provided aligners, BWA is the most suitable listed option for bacterial RNA reads aligned to a bacterial reference genome. | ~15–20 min per paired-end dataset |
+| Differential expression analysis | Read counting followed by differential expression testing | HTSeq + DESeq2 | Aligned RNA-seq reads (BAM) + genome annotation (GFF) | BAM files generated from RNA-seq alignment + annotation from Prokka | Since Rockhopper is not in the provided software sheet, HTSeq + DESeq2 is the clearest standard replacement using the available tools. | ~4h |
  
 ### 3. Extra analyses
 
@@ -63,7 +63,6 @@ The following plan is designed based on the specified questions. And question 1-
 | 12 | Identification of candidate genes important for growth in human serum based on Tn-seq count analysis | DESeq2 | ~30 min–2 h |
 
 
-
 ####  Flowchart for whole project
 
 ---
@@ -92,7 +91,6 @@ The following plan is designed based on the specified questions. And question 1-
 
 ### 6. Project directory and file arrangement
 
-need to put the screenshot of tree directory in uppmax and make comment based on it
-
+![alt text](image.png)
 
 
