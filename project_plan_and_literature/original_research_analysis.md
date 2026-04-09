@@ -1,27 +1,4 @@
-## Project plan - Yuxin Cheng
-### 1. Aim of project
-
-The overall aim of this project is to reproduce the main analyses of the study on E. faecium survival and growth in human serum, and to further extend the study through additional analyses in order to better understand the genetic basis and biological mechanisms underlying bloodstream adaptation and pathogenicity.
-
-**More specifically, the project aims to:**
--  Reproduce the key results related to genes associated with E. faecium growth in human serum;
--  Examine the biological functions and pathways of candidate genes involved in serum survival and proliferation;
--  Perform additional analyses to further evaluate the robustness, functional relevance, or broader pathogenic significance of these genes.
-
-**And the aim can be specify to listed questions:**
-1. How can a reliable reference genome of E. faecium be assembled, evaluated, and annotated?
-2. How does the assembled genome position within the phylogenetic and mobile genetic element context of related E. faecium strains?
-3. How does gene expression in E. faecium differ between rich medium (BHI) and heat-inactivated human serum?
-4. Which genes and pathways are differentially expressed under serum conditions?
-5. What regulatory or functional mechanisms may underlie these differential expression patterns?
-6. How may these serum-responsive genes and mechanisms contribute to pathogenicity in humans, and what implications might they have for future therapeutic or preventive strategies?
-
-The following plan is designed based on the specified questions. And question 1-5 are the main part for analysis.
-
----
-
-### 2. Analyses and results in the original reserach
-#### 2.1 How can a reliable reference genome of *E. faecium* be assembled, evaluated, and annotated?
+#### 1.  How can a reliable reference genome of *E. faecium* be assembled, evaluated, and annotated?
 
 **Hybrid genome sequencing and assembly**
 
@@ -49,7 +26,7 @@ This finishing step enabled completion of an additional plasmid sequence and exp
 
 ---
 
-#### 2.2 How does the assembled genome position within the phylogenetic and mobile genetic element context of related *E. faecium* strains?
+#### 2. How does the assembled genome position within the phylogenetic and mobile genetic element context of related *E. faecium* strains?
 
 **Core-genome phylogenetic placement**
 
@@ -77,7 +54,7 @@ These comparisons show that important mobile genetic elements in E745 are relate
 
 ---
 
-#### 2.3 How does gene expression in *E. faecium* differ between rich medium (BHI) and heat-inactivated human serum?
+#### 3. How does gene expression in *E. faecium* differ between rich medium (BHI) and heat-inactivated human serum?
 
 **RNA-seq differential expression analysis**
 
@@ -105,7 +82,7 @@ RNA-seq and qRT-PCR measurements were highly concordant, with **r² = 0.98**. Th
 
 ---
 
-#### 2.4 Which genes and pathways are differentially expressed under serum conditions?
+#### 4. Which genes and pathways are differentially expressed under serum conditions?
 
 **Functional interpretation of RNA-seq results**
 
@@ -133,7 +110,7 @@ The authors explicitly compared genes upregulated in serum with genes whose disr
 
 ---
 
-#### 2.5 What regulatory or functional mechanisms may underlie these differential expression patterns?
+#### 5. What regulatory or functional mechanisms may underlie these differential expression patterns?
 
 **Tn-seq screen for serum fitness determinants**
 
@@ -161,7 +138,7 @@ The paper supports several mechanistic interpretations. First, serum appears to 
 
 ---
 
-#### 2.6 How may these serum-responsive genes and mechanisms contribute to pathogenicity in humans, and what implications might they have for future therapeutic or preventive strategies?
+#### 6. How may these serum-responsive genes and mechanisms contribute to pathogenicity in humans, and what implications might they have for future therapeutic or preventive strategies?
 
 **Isolation of individual transposon mutants and growth validation**
 
@@ -186,60 +163,3 @@ The **pyrK_2** and **manY_2** mutants were tested. Embryos were injected at **30
 
 **Result and interpretation:**  
 Both mutants were significantly attenuated in virulence compared with wild type. At **92 h post infection**, survival was **53%** for embryos infected with WT E745, compared with **88%** for the **manY_2** mutant and **83%** for the **pyrK_2** mutant. This links serum adaptation directly to pathogenicity and supports the conclusion that **nucleotide biosynthesis** and **carbohydrate metabolism** are promising target areas for future anti-infective development against multidrug-resistant *E. faecium* bloodstream infection.
-
----
-
-### 3. Analysis in project
-
-| Analysis block | Analysis method in this project | Software in this project | Reason for the project choice | Estimated time (2 cores) |
-|---|---|---|---|---|
-| Reads quality control | Quality check of Illumina reads before and after preprocessing | FastQC | This is required by the project and is a standard first step for reproducible downstream analysis. | ~10 min per dataset |
-| Short reads preprocessing | Adapter and quality trimming of Illumina short reads | Trimmomatic | The paper used Illumina reads in downstream assembly correction and RNA-seq analysis, so trimming is a reasonable standard preprocessing step in the project workflow. | ~30 min per file |
-| DNA assembly | PacBio-based bacterial genome assembly | Canu | Canu is the closest long-read assembler in the provided software list for reproducing the PacBio-led assembly logic of the paper. | ~18 h |
-| Assembly improvement | Short-read-based polishing of the long-read assembly | Pilon | The original study improved assembly accuracy using Illumina-supported correction. Pilon is the most direct project-listed tool for the same purpose. | ~24 h including mapping |
-| Assembly evaluation | Statistical and completeness-based assembly evaluation | QUAST + BUSCO | These tools provide a clearer and more standardized evaluation framework for a course project than the paper’s more manual validation style. | QUAST: <15 min; BUSCO: not clearly provided in the sheet |
-| Structural and functional annotation | Structural and functional annotation of the assembled bacterial genome | Prokka | This directly matches the paper and is the most appropriate bacterial annotation tool in the provided list. | <5 min |
-| Genome comparison | Genome comparison with a closely related genome | BLAST | BLAST is explicitly listed in the project software sheet and is a direct executable option for sequence-level genome comparison. | <1 min |
-| RNA-seq read alignment | Alignment of bacterial RNA-seq reads against the assembled genome | BWA | Among the provided aligners, BWA is the most suitable listed option for bacterial RNA reads aligned to a bacterial reference genome. | ~15–20 min per paired-end dataset |
-| Differential expression analysis | Read counting followed by differential expression testing | featureCounts + DESeq2 | Since Rockhopper is not in the provided software sheet, featureCounts + DESeq2 is the clearest standard replacement using the available tools. | featureCounts: not separately provided; DESeq2: a few minutes |
- 
-### 4. Optional analyses and their relationship to the required analyses
-
-| Analysis topic | Extra analysis method | Extra software | Required input | Expected output | Benefit | Estimated time (2 cores) |
-|---|---|---|---|---|---|---|
-| DNA assembly | Alternative long-read assembly strategy | Flye | Long-read sequencing data (PacBio or Nanopore reads); optionally filtered reads | An alternative assembled genome, including contigs/scaffolds and assembly statistics | Provides an additional assembly result for comparison with Canu and can help assess assembly robustness. | ~48 h on 1 core; with 2 cores still long, roughly ~24–30 h as a practical estimate |
-| Assembly evaluation | Additional structure-level assembly comparison | MUMmerplot | Assembled genome of the project strain; reference genome or alternative assembly for comparison | Whole-genome alignment plot / dotplot showing structural similarity, rearrangements, inversions, or large-scale collinearity | Helps visualize large-scale structural agreement or rearrangements between assemblies or against a related genome. | <5 min |
-| Assembly evaluation | Read-backed variant/error inspection | BCFtools | Assembled genome; mapped reads in BAM format; reference-guided alignment files | Variant calls and mismatch information that can be used to inspect possible assembly errors or low-confidence regions | Adds another layer of quality checking after assembly and polishing. | ~90 min |
-| Functional annotation | Annotation refinement | eggNOGmapper | Predicted genes or protein sequences from the assembled genome, typically from Prokka output | Refined functional annotations, orthology assignments, COG/function categories, and pathway-related information | Improves functional interpretation of genes, especially useful for RNA-seq result discussion. | ~9–12 h estimated from the 1-core sheet |
-| Differential expression interpretation | Functional summarization / enrichment-style interpretation | rrvgo | A list of significant genes, GO terms, or functionally annotated DE genes from the RNA-seq analysis | Summarized functional categories or reduced GO-term clusters for clearer biological interpretation | Helps summarize and organize biological meaning of DE results at a higher functional level. | A few minutes |
-| Comparative genomics | Ortholog / shared-gene comparison with another genome | OrthoFinder | Protein sets / predicted proteomes from E745 and one or more related genomes | Orthogroups, shared and unique genes, and comparative gene-content relationships between genomes | Extends the comparison beyond simple BLAST by identifying shared and unique protein-coding genes. | ~30 min–2 h |
----
-
-### 5. Project time checkpoints 
-
-#### 3.1 Timeline and project milestone
-
-| Time point | Porject milestone |
-|---|---|
-| 10/4| Complete project plan |
-| 21/4 | Complete Genome assembly |
-| 24/4 | Complete Genome masking |
-| 28/4| Complete Genome annotation |
-| 05/5 | Complete Comparative Genome assembly |
-| 11/5 | Complete RNA mapping |
-| 13/5| Reading Counting |
-| 19/5 | Differential Gene Expression analysis |
-| 22/5 | Wiki |
-| 26/5 | Porject presentation |
-
-#### 3.2 Flowchart for whole project
-
-
----
-
-### 6. Project directory and file arrangement
-
-need to put the screenshot of tree directory in uppmax and make comment based on it
-
-
-
