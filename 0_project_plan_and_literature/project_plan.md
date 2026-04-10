@@ -62,6 +62,9 @@ The following plan is designed based on the specified questions. And question 1-
 | 11 | Read counting and differential expression analysis | HTSeq + DESeq2 | ~4 h |
 | 12 | Identification of candidate genes important for growth in human serum based on Tn-seq count analysis | DESeq2 | ~30 min–2 h |
 
+#### Flowchart for project
+![alt text](flowchart_pic.jpg)
+
 
 ---
 
@@ -88,7 +91,7 @@ The following plan is designed based on the specified questions. And question 1-
 ---
 
 ### 6. Project directory and file arrangement
-![alt text](image-1.png)
+![alt text](directory_structure.png)
 
 The folder `0_project_plan_and_literature` contains the planning documents, research questions, literature files, and background materials that define the scope of the project.
 
