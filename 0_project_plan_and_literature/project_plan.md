@@ -63,8 +63,6 @@ The following plan is designed based on the specified questions. And question 1-
 | 12 | Identification of candidate genes important for growth in human serum based on Tn-seq count analysis | DESeq2 | ~30 min–2 h |
 
 
-####  Flowchart for whole project
-
 ---
 
 ### 5. Time frame and checkpoints 
@@ -90,7 +88,16 @@ The following plan is designed based on the specified questions. And question 1-
 ---
 
 ### 6. Project directory and file arrangement
+![alt text](image-1.png)
 
-![alt text](image.png)
+The folder `0_project_plan_and_literature` contains the planning documents, research questions, literature files, and background materials that define the scope of the project.
 
+The folder `1_data` is intended for data organization and indexing rather than for storing the full raw datasets. 
 
+The folder `2_code` is intended for scripts organization and all codes for the whole ananlyses workflow will be stored in the file. 
+
+The remaining folders store the output results, parameter setting and sumamry tables for each step in the work flow.
+
+`file.gitignore` records the file types don't need to sync with github, eg. `1_data`.
+
+`readme` file offers instruction for the whole repository desgin and some useful linux commands.
