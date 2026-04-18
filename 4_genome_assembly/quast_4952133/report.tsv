@@ -1,0 +1,55 @@
+Assembly	SPAdes	Canu
+# contigs (>= 0 bp)	126	10
+# contigs (>= 1000 bp)	34	10
+# contigs (>= 5000 bp)	27	9
+# contigs (>= 10000 bp)	21	9
+# contigs (>= 25000 bp)	16	3
+# contigs (>= 50000 bp)	13	2
+Total length (>= 0 bp)	3126575	3115034
+Total length (>= 1000 bp)	3110693	3115034
+Total length (>= 5000 bp)	3088527	3110809
+Total length (>= 10000 bp)	3043672	3110809
+Total length (>= 25000 bp)	2953363	3001870
+Total length (>= 50000 bp)	2843767	2961857
+# contigs	36	10
+Largest contig	714133	2762475
+Total length	3111873	3115034
+Reference length	3168410	3168410
+GC (%)	37.64	37.80
+Reference GC (%)	37.70	37.70
+N50	293214	2762475
+NG50	293214	2762475
+N90	68556	199382
+NG90	48244	199382
+auN	327883.3	2463767.4
+auNG	322032.6	2422262.0
+L50	4	1
+LG50	4	1
+L90	13	2
+LG90	14	2
+# misassemblies	4	6
+# misassembled contigs	2	4
+Misassembled contigs length	120840	269557
+# local misassemblies	0	0
+# scaffold gap ext. mis.	0	0
+# scaffold gap loc. mis.	0	0
+# unaligned mis. contigs	0	0
+# unaligned contigs	1 + 1 part	0 + 0 part
+Unaligned length	7837	0
+Genome fraction (%)	97.609	97.477
+Duplication ratio	1.002	1.005
+# N's per 100 kbp	0.00	0.00
+# mismatches per 100 kbp	13.35	10.60
+# indels per 100 kbp	4.35	16.49
+Largest alignment	714133	2762475
+Total aligned length	3100116	3104197
+NA50	293214	2762475
+NGA50	293214	2762475
+NA90	64365	164653
+NGA90	31330	164653
+auNA	327052.0	2459669.4
+auNGA	321216.1	2418233.1
+LA50	4	1
+LGA50	4	1
+LA90	13	2
+LGA90	14	2
