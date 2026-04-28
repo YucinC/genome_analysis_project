@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A uppmax2026-1-61
+#SBATCH -A uppmax2026-1-94
 #SBATCH -p pelle
 #SBATCH -c 2
 #SBATCH -t 02:00:00

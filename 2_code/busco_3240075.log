@@ -1,0 +1,28 @@
+2026-04-17 09:12:39 DEBUG:busco.run_BUSCO	Command line: /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/bin/busco -i /home/yuch3531/genome_analysis_project/4_genome_assembly/spades_4922298/contigs.fasta -m genome -c 2 -o spades_busco --out_path /home/yuch3531/genome_analysis_project/4_genome_assembly/assembly_check --auto-lineage-prok
+2026-04-17 09:12:39 INFO:busco.run_BUSCO	***** Start a BUSCO v5.8.2 analysis, current time: 04/17/2026 09:12:39 *****
+2026-04-17 09:12:39 DEBUG:busco.ConfigManager	Getting config file
+2026-04-17 09:12:39 INFO:busco.ConfigManager	Configuring BUSCO with /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/config/config.ini
+2026-04-17 09:12:39 INFO:busco.BuscoConfig	Running genome mode
+2026-04-17 09:12:39 ERROR:busco.BuscoRunner	A run with the name /home/yuch3531/genome_analysis_project/4_genome_assembly/assembly_check/spades_busco already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-04-17 09:12:39 DEBUG:busco.BuscoRunner	A run with the name /home/yuch3531/genome_analysis_project/4_genome_assembly/assembly_check/spades_busco already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+Traceback (most recent call last):
+  File "/sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/lib/python3.12/site-packages/busco/run_BUSCO.py", line 68, in run
+    self.load_config()
+  File "/sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/lib/python3.12/site-packages/busco/run_BUSCO.py", line 60, in load_config
+    self.config_manager.load_busco_config_main()
+  File "/sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/lib/python3.12/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/lib/python3.12/site-packages/busco/ConfigManager.py", line 61, in load_busco_config_main
+    self.config_main.validate()
+  File "/sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/lib/python3.12/site-packages/busco/BuscoConfig.py", line 658, in validate
+    self._check_no_previous_run()
+  File "/sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/lib/python3.12/site-packages/busco/BuscoConfig.py", line 863, in _check_no_previous_run
+    raise BatchFatalError(
+busco.Exceptions.BatchFatalError: A run with the name /home/yuch3531/genome_analysis_project/4_genome_assembly/assembly_check/spades_busco already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-04-17 09:12:39 ERROR:busco.BuscoRunner	BUSCO analysis failed!
+2026-04-17 09:12:39 ERROR:busco.BuscoRunner	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

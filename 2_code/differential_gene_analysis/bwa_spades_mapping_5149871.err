@@ -1,0 +1,33 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"bwa"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "bwa"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"samtools"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "samtools"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.39 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.16 sec
+[main] Version: 0.7.19-r1273
+[main] CMD: bwa index /home/yuch3531/genome_analysis_project/4_genome_assembly/spades_4947505/spades_contigs.fasta
+[main] Real time: 0.641 sec; CPU: 0.586 sec

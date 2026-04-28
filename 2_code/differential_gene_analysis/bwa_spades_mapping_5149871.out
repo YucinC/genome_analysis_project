@@ -1,0 +1,14 @@
+Starting BWA mapping to SPAdes assembly
+Reference fasta: /home/yuch3531/genome_analysis_project/4_genome_assembly/spades_4947505/spades_contigs.fasta
+Threads: 8
+BWA index not found for /home/yuch3531/genome_analysis_project/4_genome_assembly/spades_4947505/spades_contigs.fasta
+Running bwa index...
+============================================================
+Processing RNA-seq: RNA-Seq_BH
+Input directory: /home/yuch3531/genome_analysis_project/1_data/transcriptomics_data/RNA-Seq_BH/trimmed
+Reference: spades
+============================================================
+Mapping sample: ERR1797972_pass
+R1: /home/yuch3531/genome_analysis_project/1_data/transcriptomics_data/RNA-Seq_BH/trimmed/trim_paired_ERR1797972_pass_1.fastq.gz
+R2: /home/yuch3531/genome_analysis_project/1_data/transcriptomics_data/RNA-Seq_BH/trimmed/trim_paired_ERR1797972_pass_2.fastq.gz
+Output: /home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/spades/RNA-Seq_BH/ERR1797972_pass/ERR1797972_pass.spades.sorted.bam
