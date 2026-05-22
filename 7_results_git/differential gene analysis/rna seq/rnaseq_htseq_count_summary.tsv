@@ -1,0 +1,7 @@
+dataset	sample	total_reads	assigned_to_genes	nonzero_genes	no_feature	ambiguous	too_low_aQual	not_aligned	alignment_not_unique	assigned_rate_percent	not_aligned_rate_percent	count_file
+RNA-Seq_BH	ERR1797972_pass	13756876	11502009	2941	850527	1047304	159302	197734	0	83.61	1.44	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_counting/canu/RNA-Seq_BH/ERR1797972_pass.canu.htseq.counts.txt
+RNA-Seq_BH	ERR1797973_pass	13697654	11391644	2931	820897	1148175	149516	187422	0	83.16	1.37	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_counting/canu/RNA-Seq_BH/ERR1797973_pass.canu.htseq.counts.txt
+RNA-Seq_BH	ERR1797974_pass	12413971	10347476	2934	772221	982502	139670	172102	0	83.35	1.39	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_counting/canu/RNA-Seq_BH/ERR1797974_pass.canu.htseq.counts.txt
+RNA-Seq_Serum	ERR1797969_pass	13070563	7919325	2937	4108398	571233	237396	234211	0	60.59	1.79	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_counting/canu/RNA-Seq_Serum/ERR1797969_pass.canu.htseq.counts.txt
+RNA-Seq_Serum	ERR1797970_pass	14692749	9095186	2942	4386343	682502	280868	247850	0	61.90	1.69	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_counting/canu/RNA-Seq_Serum/ERR1797970_pass.canu.htseq.counts.txt
+RNA-Seq_Serum	ERR1797971_pass	14038660	8491990	2933	4429022	609066	262457	246125	0	60.49	1.75	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_counting/canu/RNA-Seq_Serum/ERR1797971_pass.canu.htseq.counts.txt

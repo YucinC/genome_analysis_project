@@ -1,0 +1,10 @@
+condition	sample	window_count_file	total_windows	windows_with_reads	total_window_counts
+Tn-Seq_BHI	ERR1801012	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_BHI/ERR1801012/ERR1801012.25bp_window.counts.tsv	124605	8581	4868090
+Tn-Seq_BHI	ERR1801013	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_BHI/ERR1801013/ERR1801013.25bp_window.counts.tsv	124605	9687	4687650
+Tn-Seq_BHI	ERR1801014	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_BHI/ERR1801014/ERR1801014.25bp_window.counts.tsv	124605	8655	4606271
+Tn-Seq_HSerum	ERR1801009	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_HSerum/ERR1801009/ERR1801009.25bp_window.counts.tsv	124605	8951	6221323
+Tn-Seq_HSerum	ERR1801010	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_HSerum/ERR1801010/ERR1801010.25bp_window.counts.tsv	124605	7004	5515501
+Tn-Seq_HSerum	ERR1801011	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_HSerum/ERR1801011/ERR1801011.25bp_window.counts.tsv	124605	10180	5662571
+Tn-Seq_Serum	ERR1801006	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_Serum/ERR1801006/ERR1801006.25bp_window.counts.tsv	124605	10052	5566759
+Tn-Seq_Serum	ERR1801007	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_Serum/ERR1801007/ERR1801007.25bp_window.counts.tsv	124605	11216	5942309
+Tn-Seq_Serum	ERR1801008	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bowtie2_canu_25bp_window/Tn-Seq_Serum/ERR1801008/ERR1801008.25bp_window.counts.tsv	124605	7034	3149758

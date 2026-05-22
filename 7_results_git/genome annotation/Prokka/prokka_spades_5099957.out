@@ -1,0 +1,19 @@
+Running Prokka annotation
+Input assembly: /home/yuch3531/genome_analysis_project/4_genome_assembly/spades_4947505/spades_contigs.fasta
+Output directory: /home/yuch3531/genome_analysis_project/5_genome_annotation/Prokka/E745_spades
+Threads: 2
+Prokka annotation finished
+Main output files:
+total 34M
+-rw-r--r-- 1 yuch3531 yuch3531 1.2M Apr 25 10:06 E745_spades.err
+-rw-r--r-- 1 yuch3531 yuch3531 999K Apr 25 10:06 E745_spades.faa
+-rw-r--r-- 1 yuch3531 yuch3531 2.7M Apr 25 10:06 E745_spades.ffn
+-rw-r--r-- 1 yuch3531 yuch3531 3.1M Apr 25 10:00 E745_spades.fna
+-rw-r--r-- 1 yuch3531 yuch3531 3.1M Apr 25 10:06 E745_spades.fsa
+-rw-r--r-- 1 yuch3531 yuch3531 6.6M Apr 25 10:06 E745_spades.gbk
+-rw-r--r-- 1 yuch3531 yuch3531 4.2M Apr 25 10:06 E745_spades.gff
+-rw-r--r-- 1 yuch3531 yuch3531  49K Apr 25 10:06 E745_spades.log
+-rw-r--r-- 1 yuch3531 yuch3531  12M Apr 25 10:06 E745_spades.sqn
+-rw-r--r-- 1 yuch3531 yuch3531 703K Apr 25 10:06 E745_spades.tbl
+-rw-r--r-- 1 yuch3531 yuch3531 261K Apr 25 10:06 E745_spades.tsv
+-rw-r--r-- 1 yuch3531 yuch3531  104 Apr 25 10:06 E745_spades.txt

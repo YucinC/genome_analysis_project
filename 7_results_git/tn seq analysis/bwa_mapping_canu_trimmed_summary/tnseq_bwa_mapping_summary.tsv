@@ -1,0 +1,10 @@
+condition	sample	flagstat_file	total_reads	mapped_reads	mapping_rate_percent	primary_mapped_reads	primary_mapping_rate_percent
+Tn-Seq_BHI	ERR1801012	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_BHI/ERR1801012/ERR1801012.canu.flagstat.txt	6611322	13465	0.20	13465	0.20
+Tn-Seq_BHI	ERR1801013	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_BHI/ERR1801013/ERR1801013.canu.flagstat.txt	6375076	11254	0.18	11254	0.18
+Tn-Seq_BHI	ERR1801014	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_BHI/ERR1801014/ERR1801014.canu.flagstat.txt	6298506	11594	0.18	11594	0.18
+Tn-Seq_HSerum	ERR1801009	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_HSerum/ERR1801009/ERR1801009.canu.flagstat.txt	7508596	14090	0.19	14090	0.19
+Tn-Seq_HSerum	ERR1801010	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_HSerum/ERR1801010/ERR1801010.canu.flagstat.txt	6750584	10988	0.16	10988	0.16
+Tn-Seq_HSerum	ERR1801011	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_HSerum/ERR1801011/ERR1801011.canu.flagstat.txt	6760994	19677	0.29	19677	0.29
+Tn-Seq_Serum	ERR1801006	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_Serum/ERR1801006/ERR1801006.canu.flagstat.txt	6918570	16170	0.23	16170	0.23
+Tn-Seq_Serum	ERR1801007	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_Serum/ERR1801007/ERR1801007.canu.flagstat.txt	7743586	13593	0.18	13593	0.18
+Tn-Seq_Serum	ERR1801008	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq/bwa_mapping_canu_trimmed/Tn-Seq_Serum/ERR1801008/ERR1801008.canu.flagstat.txt	4213055	4873	0.12	4873	0.12

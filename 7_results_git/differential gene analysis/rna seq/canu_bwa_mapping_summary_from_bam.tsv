@@ -1,0 +1,16 @@
+data_type	dataset	sample	total_reads	mapped_reads	mapping_rate_percent	bam
+RNA-seq	RNA-Seq_BH	ERR1797972_pass	27538339	27141532	98.56	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/canu/RNA-Seq_BH/ERR1797972_pass/ERR1797972_pass.canu.sorted.bam
+RNA-seq	RNA-Seq_BH	ERR1797973_pass	27418657	27042279	98.63	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/canu/RNA-Seq_BH/ERR1797973_pass/ERR1797973_pass.canu.sorted.bam
+RNA-seq	RNA-Seq_BH	ERR1797974_pass	24849662	24504135	98.61	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/canu/RNA-Seq_BH/ERR1797974_pass/ERR1797974_pass.canu.sorted.bam
+RNA-seq	RNA-Seq_Serum	ERR1797969_pass	26172310	25702067	98.20	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/canu/RNA-Seq_Serum/ERR1797969_pass/ERR1797969_pass.canu.sorted.bam
+RNA-seq	RNA-Seq_Serum	ERR1797970_pass	29422976	28925032	98.31	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/canu/RNA-Seq_Serum/ERR1797970_pass/ERR1797970_pass.canu.sorted.bam
+RNA-seq	RNA-Seq_Serum	ERR1797971_pass	28111996	27617743	98.24	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/rna_mapping/canu/RNA-Seq_Serum/ERR1797971_pass/ERR1797971_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_BHI	ERR1801012_pass	6840756	91142	1.33	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_BHI/ERR1801012_pass/ERR1801012_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_BHI	ERR1801013_pass	6522419	97923	1.50	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_BHI/ERR1801013_pass/ERR1801013_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_BHI	ERR1801014_pass	6438334	87147	1.35	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_BHI/ERR1801014_pass/ERR1801014_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_HSerum	ERR1801009_pass	7683829	127691	1.66	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_HSerum/ERR1801009_pass/ERR1801009_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_HSerum	ERR1801010_pass	6962156	60022	0.86	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_HSerum/ERR1801010_pass/ERR1801010_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_HSerum	ERR1801011_pass	6934931	148098	2.14	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_HSerum/ERR1801011_pass/ERR1801011_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_Serum	ERR1801006_pass	7430688	104601	1.41	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_Serum/ERR1801006_pass/ERR1801006_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_Serum	ERR1801007_pass	7902676	96841	1.23	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_Serum/ERR1801007_pass/ERR1801007_pass.canu.sorted.bam
+Tn-seq	Tn-Seq_Serum	ERR1801008_pass	4848177	87453	1.80	/home/yuch3531/genome_analysis_project/6_differential_gene_analysis/tnseq_mapping/canu/Tn-Seq_Serum/ERR1801008_pass/ERR1801008_pass.canu.sorted.bam
