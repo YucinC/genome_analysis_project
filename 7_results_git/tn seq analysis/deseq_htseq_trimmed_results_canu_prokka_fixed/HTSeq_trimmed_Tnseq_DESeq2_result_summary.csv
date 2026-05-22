@@ -1,0 +1,4 @@
+analysis,comparison,tested_features,annotated_features,significant_padj_0.05,significant_padj_0.05_log2FC_1,higher_mutant_abundance,lower_mutant_abundance,labeled_genes,top_gene_id,top_plot_label,top_locus_tag_internal,top_log2FC,top_padj
+HTSeq_trimmed_gene_level,Serum_vs_BHI,1784,1784,55,47,24,23,10,dgaR_2,dgaR_2 / Transcriptional regulatory protein DagR,dgaR_2,-5.61141841105979,8.89286711154484e-93
+HTSeq_trimmed_gene_level,HSerum_vs_BHI,1784,1784,46,42,18,24,10,dgaR_2,dgaR_2 / Transcriptional regulatory protein DagR,dgaR_2,-5.40918163094635,1.74687237807286e-86
+HTSeq_trimmed_gene_level,Serum_vs_HSerum,1784,1784,30,28,18,10,10,hypothetical protein,hypothetical protein,hypothetical protein,-1.05389294775088,4.58010117484371e-11

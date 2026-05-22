@@ -1,0 +1,10 @@
+condition,sample,count_file,total_in_count_file,assigned_to_features,no_feature,ambiguous,too_low_aQual,not_aligned,alignment_not_unique,assigned_rate_in_count_file_percent
+Tn-Seq_BHI,ERR1801012,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_BHI/ERR1801012.canu.bowtie2.htseq.counts.txt,6611322,3514868,699901,11103,642265,1743185,0,53.16
+Tn-Seq_BHI,ERR1801013,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_BHI/ERR1801013.canu.bowtie2.htseq.counts.txt,6375076,3342489,679139,10301,655802,1687345,0,52.43
+Tn-Seq_BHI,ERR1801014,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_BHI/ERR1801014.canu.bowtie2.htseq.counts.txt,6298506,3303175,652234,11058,639850,1692189,0,52.44
+Tn-Seq_HSerum,ERR1801009,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_HSerum/ERR1801009.canu.bowtie2.htseq.counts.txt,7508596,4545290,889490,15836,770760,1287220,0,60.53
+Tn-Seq_HSerum,ERR1801010,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_HSerum/ERR1801010.canu.bowtie2.htseq.counts.txt,6750584,3972842,834523,15694,692532,1234993,0,58.85
+Tn-Seq_HSerum,ERR1801011,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_HSerum/ERR1801011.canu.bowtie2.htseq.counts.txt,6760994,4042151,852994,10833,756855,1098161,0,59.79
+Tn-Seq_Serum,ERR1801006,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_Serum/ERR1801006.canu.bowtie2.htseq.counts.txt,6918570,4021044,831344,15631,699083,1351468,0,58.12
+Tn-Seq_Serum,ERR1801007,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_Serum/ERR1801007.canu.bowtie2.htseq.counts.txt,7743586,4224077,906066,16650,795713,1801080,0,54.55
+Tn-Seq_Serum,ERR1801008,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_Serum/ERR1801008.canu.bowtie2.htseq.counts.txt,4213055,2250436,475356,6888,417078,1063297,0,53.42

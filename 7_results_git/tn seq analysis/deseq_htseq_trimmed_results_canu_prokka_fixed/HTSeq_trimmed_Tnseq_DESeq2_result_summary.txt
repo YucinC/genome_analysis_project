@@ -1,0 +1,40 @@
+Tn-seq DESeq2 result summary: trimmed HTSeq-count gene-level analysis
+=====================================================================
+
+Interpretation:
+This is Tn-seq insertion-count analysis, not RNA-seq expression analysis.
+Positive log2FoldChange means higher mutant/insertion abundance in the numerator condition.
+Negative log2FoldChange means lower mutant/insertion abundance in the numerator condition.
+A significantly lower mutant abundance may suggest that disruption of the corresponding gene reduces fitness in the numerator condition.
+
+Features before filtering: 3093
+Features after filtering: 1784
+Annotation match rate before filtering: 100%
+
+Important annotation note:
+The internal DESeq2 rownames are still locus_tag IDs because they are stable and unique.
+Human-facing result tables and plot labels use Prokka gene_name/product annotations.
+If some labels still show locus_tag, those features were not matched or lack Prokka gene/product annotation.
+Check annotation_debug/ for matching diagnostics.
+
+Pairwise comparison summary:
+                  analysis      comparison tested_features annotated_features
+1 HTSeq_trimmed_gene_level    Serum_vs_BHI            1784               1784
+2 HTSeq_trimmed_gene_level   HSerum_vs_BHI            1784               1784
+3 HTSeq_trimmed_gene_level Serum_vs_HSerum            1784               1784
+  significant_padj_0.05 significant_padj_0.05_log2FC_1 higher_mutant_abundance
+1                    55                             47                      24
+2                    46                             42                      18
+3                    30                             28                      18
+  lower_mutant_abundance labeled_genes          top_gene_id
+1                     23            10               dgaR_2
+2                     24            10               dgaR_2
+3                     10            10 hypothetical protein
+                                    top_plot_label top_locus_tag_internal top_log2FC
+1 dgaR_2 / Transcriptional regulatory protein DagR                 dgaR_2  -5.611418
+2 dgaR_2 / Transcriptional regulatory protein DagR                 dgaR_2  -5.409182
+3                             hypothetical protein   hypothetical protein  -1.053893
+      top_padj
+1 8.892867e-93
+2 1.746872e-86
+3 4.580101e-11

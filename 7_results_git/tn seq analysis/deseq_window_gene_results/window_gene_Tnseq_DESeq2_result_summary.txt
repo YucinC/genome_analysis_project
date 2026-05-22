@@ -1,0 +1,40 @@
+Tn-seq DESeq2 result summary: window-to-gene aggregated analysis
+=================================================================
+
+Interpretation:
+This analysis uses gene-level counts aggregated from 25 bp genomic windows overlapping CDS regions.
+It is not RNA-seq expression analysis.
+Positive log2FoldChange means higher mutant/insertion abundance in the numerator condition.
+Negative log2FoldChange means lower mutant/insertion abundance in the numerator condition.
+A significantly lower mutant abundance may suggest that disruption of the corresponding gene reduces fitness in the numerator condition.
+
+Features before filtering: 3093
+Features after filtering: 2280
+
+PCA and sample distance heatmap:
+PC1 explains 33.68% variance.
+PC2 explains 18.63% variance.
+Use these plots to check whether replicates cluster by condition and whether any sample is an outlier.
+
+Pairwise comparison summary:
+                   analysis      comparison tested_features annotated_features
+1 window_to_gene_aggregated    Serum_vs_BHI            2280               2280
+2 window_to_gene_aggregated   HSerum_vs_BHI            2280               2280
+3 window_to_gene_aggregated Serum_vs_HSerum            2280               2280
+  significant_padj_0.05 significant_padj_0.05_log2FC_1 higher_mutant_abundance
+1                    58                             49                      25
+2                    58                             54                      17
+3                    18                             16                      11
+  lower_mutant_abundance labeled_features top_feature
+1                     24               10 E745S_02100
+2                     37               10 E745S_02100
+3                      5               10 E745S_01213
+                                         top_label top_log2FC     top_padj
+1 dgaR_2 / Transcriptional regulatory protein DagR  -5.631919 3.284013e-87
+2 dgaR_2 / Transcriptional regulatory protein DagR  -5.409361 1.192783e-80
+3                             hypothetical protein  -1.072621 2.103244e-10
+
+Why window-to-gene aggregation was used:
+The 25 bp window count strategy first quantifies insertion signals across local genomic windows.
+The windows overlapping CDS regions are then aggregated to gene level.
+This provides gene-level interpretation while still being closer to the insertion-site logic of Tn-seq than direct HTSeq-style feature counting.

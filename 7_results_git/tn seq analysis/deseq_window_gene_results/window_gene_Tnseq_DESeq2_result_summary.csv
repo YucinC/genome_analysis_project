@@ -1,0 +1,4 @@
+analysis,comparison,tested_features,annotated_features,significant_padj_0.05,significant_padj_0.05_log2FC_1,higher_mutant_abundance,lower_mutant_abundance,labeled_features,top_feature,top_label,top_log2FC,top_padj
+window_to_gene_aggregated,Serum_vs_BHI,2280,2280,58,49,25,24,10,E745S_02100,dgaR_2 / Transcriptional regulatory protein DagR,-5.6319192172195,3.28401331236586e-87
+window_to_gene_aggregated,HSerum_vs_BHI,2280,2280,58,54,17,37,10,E745S_02100,dgaR_2 / Transcriptional regulatory protein DagR,-5.40936135988588,1.19278283041508e-80
+window_to_gene_aggregated,Serum_vs_HSerum,2280,2280,18,16,11,5,10,E745S_01213,hypothetical protein,-1.07262118715218,2.10324419369084e-10

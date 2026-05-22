@@ -1,0 +1,10 @@
+,sample,dataset,condition,file
+ERR1801012,ERR1801012,Tn-Seq_BHI,Tn-Seq_BHI,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_BHI/ERR1801012.canu.bowtie2.htseq.counts.txt
+ERR1801013,ERR1801013,Tn-Seq_BHI,Tn-Seq_BHI,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_BHI/ERR1801013.canu.bowtie2.htseq.counts.txt
+ERR1801014,ERR1801014,Tn-Seq_BHI,Tn-Seq_BHI,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_BHI/ERR1801014.canu.bowtie2.htseq.counts.txt
+ERR1801009,ERR1801009,Tn-Seq_HSerum,Tn-Seq_HSerum,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_HSerum/ERR1801009.canu.bowtie2.htseq.counts.txt
+ERR1801010,ERR1801010,Tn-Seq_HSerum,Tn-Seq_HSerum,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_HSerum/ERR1801010.canu.bowtie2.htseq.counts.txt
+ERR1801011,ERR1801011,Tn-Seq_HSerum,Tn-Seq_HSerum,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_HSerum/ERR1801011.canu.bowtie2.htseq.counts.txt
+ERR1801006,ERR1801006,Tn-Seq_Serum,Tn-Seq_Serum,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_Serum/ERR1801006.canu.bowtie2.htseq.counts.txt
+ERR1801007,ERR1801007,Tn-Seq_Serum,Tn-Seq_Serum,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_Serum/ERR1801007.canu.bowtie2.htseq.counts.txt
+ERR1801008,ERR1801008,Tn-Seq_Serum,Tn-Seq_Serum,../tnseq_counting/htseq_canu_bowtie2/Tn-Seq_Serum/ERR1801008.canu.bowtie2.htseq.counts.txt

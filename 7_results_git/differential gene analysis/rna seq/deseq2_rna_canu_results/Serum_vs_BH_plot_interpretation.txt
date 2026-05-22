@@ -1,0 +1,31 @@
+RNA-seq plot interpretation summary
+===================================
+
+Comparison: Serum vs BH
+Positive log2FoldChange: higher expression in Serum
+Negative log2FoldChange: higher expression in BH
+
+Total genes tested after filtering: 2911
+Significant genes, padj < 0.05 and |log2FC| >= 1: 1246
+Upregulated in Serum: 630
+Higher expression in BH: 616
+
+MA plot:
+The MA plot shows whether differential expression depends on the average expression level.
+Genes above zero have higher expression in Serum, while genes below zero have higher expression in BH.
+The dashed horizontal lines mark log2FC = +1 and -1.
+
+PCA plot:
+The PCA plot shows whether samples separate by condition based on global expression profiles.
+PC1 explains 99.23% of the variance.
+PC2 explains 0.33% of the variance.
+If PC2 is very small, the sample distance heatmap should be used as a complementary sample-level QC plot.
+
+Sample distance heatmap:
+This heatmap shows pairwise distances between samples after VST transformation.
+Replicates from the same condition should generally be closer to each other.
+
+Volcano plot:
+The volcano plot highlights genes with both large fold changes and strong statistical significance.
+The right side shows genes upregulated in Serum, while the left side shows genes with higher expression in BH.
+The vertical dashed lines mark log2FC = +1 and -1, and the horizontal dashed line marks padj = 0.05.

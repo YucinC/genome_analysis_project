@@ -1,0 +1,11 @@
+gene_id,gene_name,product_name,product_short,plot_label,baseMean,log2FoldChange,padj,tnseq_change,locus_tag_internal,annotation_status
+pyrF,pyrF,Orotidine 5'-phosphate decarboxylase,Orotidine 5'-phosphate decarboxylase,pyrF / Orotidine 5'-phosphate decarboxylase,361.596772836746,22.1058975157457,4.86568888709777e-08,Higher mutant abundance,pyrF,gene_and_product
+clpC,clpC,Negative regulator of genetic competence ClpC/MecB,Negative regulator of genetic competence ClpC/MecB,clpC / Negative regulator of genetic competence ClpC/MecB,39.9299474249619,23.048876873562,1.09399465105038e-06,Higher mutant abundance,clpC,gene_and_product
+araQ_5,araQ_5,L-arabinose transport system permease protein AraQ,L-arabinose transport system permease protein AraQ,araQ_5 / L-arabinose transport system permease protein AraQ,35.9618198510673,22.8341809477322,1.09399465105038e-06,Higher mutant abundance,araQ_5,gene_and_product
+hypothetical protein,,hypothetical protein,hypothetical protein,hypothetical protein,59.3219416589105,22.651774796351,1.18363614112609e-06,Higher mutant abundance,hypothetical protein,product_only
+2-haloacrylate reductase,,2-haloacrylate reductase,2-haloacrylate reductase,2-haloacrylate reductase,27.1424550124944,21.8807773948509,2.5520531742622e-06,Higher mutant abundance,2-haloacrylate reductase,product_only
+hypothetical protein,,hypothetical protein,hypothetical protein,hypothetical protein,31051.1939859824,-1.05389294775088,4.58010117484371e-11,Lower mutant abundance,hypothetical protein,product_only
+ybhL,ybhL,Inner membrane protein YbhL,Inner membrane protein YbhL,ybhL / Inner membrane protein YbhL,64.8556248870906,-22.3921770128797,3.1788300055611e-08,Lower mutant abundance,ybhL,gene_and_product
+hypothetical protein,,hypothetical protein,hypothetical protein,hypothetical protein,96.3197461884184,-22.9444709715185,1.4464608570769e-07,Lower mutant abundance,hypothetical protein,product_only
+hypothetical protein,,hypothetical protein,hypothetical protein,hypothetical protein,62.1355996949746,-22.9568833577072,1.09399465105038e-06,Lower mutant abundance,hypothetical protein,product_only
+pyrDA,pyrDA,Dihydroorotate dehydrogenase A (fumarate),Dihydroorotate dehydrogenase A (fumarate),pyrDA / Dihydroorotate dehydrogenase A (fumarate),67.700919577126,-22.7767406644404,1.09399465105038e-06,Lower mutant abundance,pyrDA,gene_and_product
