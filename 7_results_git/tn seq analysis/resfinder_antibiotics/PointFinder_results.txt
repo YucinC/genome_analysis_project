@@ -1,0 +1,22 @@
+Mutation	Nucleotide change	Amino acid change	Resistance	PMID
+gyrA p.E87G	GAG -> GGG	E -> G	Nalidixic Acid, Ciprofloxacin	12373497
+parC p.S80I	AGC -> ATC	S -> I	Nalidixic Acid, Ciprofloxacin	12373497
+pbp5 p.V24A	GTA -> GCA	V -> A	Ampicillin	25182648
+pbp5 p.S27G	AGT -> GGT	S -> G	Ampicillin	25182648
+pbp5 p.R34Q	CGG -> CAG	R -> Q	Ampicillin	25182648
+pbp5 p.G66E	GGA -> GAA	G -> E	Ampicillin	25182648
+pbp5 p.A68T	GCA -> ACA	A -> T	Ampicillin	25182648
+pbp5 p.E85D	GAA -> GAT	E -> D	Ampicillin	25182648
+pbp5 p.E100Q	GAG -> CAG	E -> Q	Ampicillin	25182648
+pbp5 p.K144Q	AAA -> CAA	K -> Q	Ampicillin	25182648
+pbp5 p.T172A	ACA -> GCA	T -> A	Ampicillin	25182648
+pbp5 p.L177I	TTA -> ATA	L -> I	Ampicillin	25182648
+pbp5 p.D204G	GAC -> GGC	D -> G	Ampicillin	25182648
+pbp5 p.A216S	GCA -> TCC	A -> S	Ampicillin	25182648
+pbp5 p.T324A	ACA -> GCA	T -> A	Ampicillin	25182648
+pbp5 p.M485A	ATG -> GCG	M -> A	Ampicillin	25182648
+pbp5 p.N496K	AAT -> AAA	N -> K	Ampicillin	25182648
+pbp5 p.A499T	GCA -> ACA	A -> T	Ampicillin	25182648
+pbp5 p.E525D	GAG -> GAT	E -> D	Ampicillin	25182648
+pbp5 p.E629V	GAA -> GTA	E -> V	Ampicillin	25182648
+pbp5 p.P667S	CCC -> TCG	P -> S	Ampicillin	25182648
